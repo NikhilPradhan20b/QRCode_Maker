@@ -27,7 +27,7 @@ label = customtkinter.CTkLabel(master = frame, text = "QR maker")
 
 label.pack(pady = 12,padx = 10)
 
-enrty = customtkinter.CTkEntry(master = frame, placeholder_text = "Enter your URL here")
+enrty = customtkinter.CTkEntry(master = frame, placeholder_text = "Enter your URL/Text here")
 enrty.pack(pady = 12,padx = 10)
 
 enrty1 = customtkinter.CTkEntry(master = frame, placeholder_text = "Enter color of qr code")
